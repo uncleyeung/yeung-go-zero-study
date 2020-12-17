@@ -1,13 +1,13 @@
-Name: bookstore-api
+Name: github.com/uncleyeung/yeung-go-zero-study-api
 Host: 0.0.0.0
 Port: 8888
 Add:
   Etcd:
     Hosts:
-      - localhost:2379
+      - 192.168.206.128:2379
     Key: add.rpc
 Check:
   Etcd:
     Hosts:
-      - localhost:2379
+      - 192.168.206.128:2379
     Key: check.rpc

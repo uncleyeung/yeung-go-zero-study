@@ -1,6 +1,6 @@
 package svc
 
-import "bookstore/rpc/check/internal/config"
+import "github.com/uncleyeung/yeung-go-zero-study/rpc/check/internal/config"
 
 type ServiceContext struct {
 	c config.Config

@@ -7,10 +7,10 @@ import (
 	"flag"
 	"fmt"
 
-	"bookstore/rpc/check/check"
-	"bookstore/rpc/check/internal/config"
-	"bookstore/rpc/check/internal/server"
-	"bookstore/rpc/check/internal/svc"
+	"github.com/uncleyeung/yeung-go-zero-study/rpc/check/check"
+	"github.com/uncleyeung/yeung-go-zero-study/rpc/check/internal/config"
+	"github.com/uncleyeung/yeung-go-zero-study/rpc/check/internal/server"
+	"github.com/uncleyeung/yeung-go-zero-study/rpc/check/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/zrpc"

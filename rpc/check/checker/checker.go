@@ -8,7 +8,7 @@ package checker
 import (
 	"context"
 
-	"bookstore/rpc/check/check"
+	"github.com/uncleyeung/yeung-go-zero-study/rpc/check/check"
 
 	"github.com/tal-tech/go-zero/zrpc"
 )

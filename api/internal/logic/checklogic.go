@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"bookstore/api/internal/svc"
-	"bookstore/api/internal/types"
+	"github.com/uncleyeung/yeung-go-zero-study/api/internal/svc"
+	"github.com/uncleyeung/yeung-go-zero-study/api/internal/types"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )

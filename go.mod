@@ -1,4 +1,4 @@
-module bookstore
+module github.com/uncleyeung/yeung-go-zero-study
 
 go 1.15
 

@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"bookstore/rpc/check/check"
-	"bookstore/rpc/check/internal/svc"
+	"github.com/uncleyeung/yeung-go-zero-study/rpc/check/check"
+	"github.com/uncleyeung/yeung-go-zero-study/rpc/check/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )

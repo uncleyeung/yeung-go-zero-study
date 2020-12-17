@@ -4,15 +4,15 @@ import (
 	"flag"
 	"fmt"
 
-	"bookstore/api/internal/config"
-	"bookstore/api/internal/handler"
-	"bookstore/api/internal/svc"
+	"github.com/uncleyeung/yeung-go-zero-study/api/internal/config"
+	"github.com/uncleyeung/yeung-go-zero-study/api/internal/handler"
+	"github.com/uncleyeung/yeung-go-zero-study/api/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/rest"
 )
 
-var configFile = flag.String("f", "api/etc/bookstore-api.yaml", "the config file")
+var configFile = flag.String("f", "api/etc/yeung-go-zero-study-api.yaml", "the config file")
 
 func main() {
 	flag.Parse()
